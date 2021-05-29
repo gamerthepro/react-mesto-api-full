@@ -1,0 +1,9 @@
+.popup__input_edit_name {
+	margin: 47px 36px 0px;
+}
+
+@media screen and (max-width: 767px) {
+   .popup__input_edit_name {
+		margin: 75px 22px 0px;
+   }
+}

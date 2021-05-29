@@ -1,0 +1,22 @@
+.register__input {
+	width: 100%;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	border: none;
+	border-bottom: 2px solid #cccccc;
+	background-color: black;
+	color: white;
+	padding: 0 0 13px 0;
+	margin: 50px auto 0 auto;
+}
+
+.register__input:focus {
+	outline: none;
+	border-bottom: 2px solid #cccccc;
+}
+
+.register__input:nth-of-type(2) {
+	margin: 30px 0 0;
+}

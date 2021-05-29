@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+   .popup__save_add {
+		margin: 0 20px 30px;
+   }
+}

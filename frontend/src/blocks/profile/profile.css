@@ -1,0 +1,11 @@
+.profile {
+	max-width: 882px;
+	margin: 40px auto 45px;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+   .profile {
+		margin: 40px auto 40px;
+   }
+}

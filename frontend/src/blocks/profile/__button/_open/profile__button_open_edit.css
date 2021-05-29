@@ -1,0 +1,20 @@
+.profile__button_open_edit {
+	background-image: url(../../../../images/EditButton/Vector.svg);
+	width: 24px;
+	height: 24px;
+	background-color: transparent;
+	transition: opacity linear 1s;
+	margin: 15px 0 0;
+}
+
+.profile__button_open_edit:hover {
+	opacity: .6;
+}
+
+@media screen and (max-width: 767px) {
+   .profile__button_open_edit {
+		width: 18px;
+		height: 18px;
+      margin: 8px 0 0;
+   }
+}

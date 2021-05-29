@@ -1,0 +1,41 @@
+.profile__overlay {
+	display: block;
+	position: relative;
+	border-radius: 100%;
+}
+
+.profile__overlay::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .8);
+	opacity: 0;
+	transition: opacity .5s ease;
+}
+
+.profile__overlay::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-image:url(../../../images/EditButton/Vector.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: 0;
+	z-index: 1;
+	cursor: pointer;
+	transition: opacity .5s ease;
+}
+
+.profile__overlay:hover::before {
+	opacity: 1;
+}
+
+.profile__overlay:hover::after {
+	opacity: 1;
+}

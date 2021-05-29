@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) {
+   .popup__close_add {
+		top: -20px;
+		right: -23px;
+   }
+}

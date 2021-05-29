@@ -1,0 +1,14 @@
+.element {
+	display: flex;
+	flex-direction: column;
+	background: #FFFFFF;
+	border-radius: 10px;
+	min-height: 361px;
+	overflow: hidden;
+	position: relative;
+}
+
+.element:hover {
+	opacity: .8;
+	cursor: pointer;
+}
