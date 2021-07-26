@@ -1,4 +1,4 @@
-const express = require('express');
+const ; = require('express');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
 const { errors } = require('celebrate');
