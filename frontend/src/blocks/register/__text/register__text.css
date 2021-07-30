@@ -1,0 +1,11 @@
+.register__text {
+	display: inline;
+	width: 100%;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: white;
+	margin: 15px auto 0;
+}

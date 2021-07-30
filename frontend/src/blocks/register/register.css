@@ -1,0 +1,9 @@
+.register {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	align-items: center;
+	width: 358px;
+	margin: 0;
+	padding: 0;
+}

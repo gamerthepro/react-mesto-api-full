@@ -1,13 +1,14 @@
 .header {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: space-between;
 	max-width: 880px;
 	border-bottom: 1px solid rgba(84, 84, 84, .7);
-	padding-bottom: 41px;
+	padding: 0 0 41px;
 }
 
 @media screen and (max-width: 767px) {
    .header {
-		padding-bottom: 31.6px;
+		padding: 0 0 31.6px;
 	}
 }
