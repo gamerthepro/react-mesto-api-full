@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "npm run build&&gh-pages -d build",
+    "deploy": "npm run build && scp -r ./build/* artem@178.154.220.250:/home/artem/frontend",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
