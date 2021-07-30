@@ -1,0 +1,10 @@
+.button {
+  display: inline-block;
+  background-color: #000000;
+  border-radius: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: center;
+  white-space: pre-wrap;
+}

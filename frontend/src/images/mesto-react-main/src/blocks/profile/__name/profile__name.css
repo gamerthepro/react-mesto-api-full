@@ -1,0 +1,19 @@
+.profile__name {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 1.25;
+  grid-area: name;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 1280px) {
+  .profile__name {
+    text-align: start;
+    font-size: 42px;
+    line-height: 1.14;
+  }
+}

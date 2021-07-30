@@ -1,0 +1,24 @@
+.profile__wrap {
+  padding-top: 23px;
+  display: grid;
+  grid-template-columns: 36px 189px 36px;
+  grid-template-rows: min-content min-content 74px;
+  gap: 9px 10px;
+  grid-template-areas:
+  ". name btn"
+  "text text text"
+  "btn-save btn-save btn-save";
+}
+
+@media screen and (min-width: 1280px) {
+  .profile__wrap {
+    grid-template-columns: 12px 294px 30px 370px;
+    grid-template-rows: min-content min-content;
+    grid-template-areas:
+    ". name btn btn-save"
+    ". text text btn-save";
+    gap: 10px 18px;
+    padding-top: 0;
+    flex-basis: 800px;
+  }
+}
